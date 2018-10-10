@@ -1,0 +1,16 @@
+package com.capgemini.orderapp.service;
+
+import java.util.Set;
+
+import com.capgemini.orderapp.entity.LineItem;
+
+public interface LineItemService {
+	
+	
+	public void addLineItem(LineItem lineItem);
+	
+	public void removeLineItem(LineItem lineItem);
+	
+	public Set<LineItem> getLineItems(int customerId);
+
+}

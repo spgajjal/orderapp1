@@ -1,0 +1,16 @@
+1539149893429	Delete element
+1539153540322	Delete element
+1539159630569	Rename package 'com.capgemini.order.entity.order'
+1539159664260	Rename package 'com.capgemini.order'
+1539159701277	Rename package 'com.capgemini.order.service'
+1539159715127	Rename package 'com.capgemini.order.repository'
+1539159738009	Rename package 'com.capgemini.order.entity'
+1539159752862	Rename package 'com.capgemini.order.controller'
+1539159762760	Delete element
+1539159782944	Rename type 'Order'
+1539160461090	Rename type 'OrderItem'
+1539162296941	Rename field 'productPrice'
+1539162477712	Rename type 'ListItem'
+1539164545248	Rename type 'LineItem'
+1539164753516	Rename method 'getallOrder'
+1539169355829	Delete element

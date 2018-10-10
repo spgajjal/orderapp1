@@ -1,0 +1,72 @@
+package com.capgemini.orderapp.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.capgemini.orderapp.entity.LineItem;
+import com.capgemini.orderapp.entity.Order;
+import com.capgemini.orderapp.repository.OrderRepository;
+import com.capgemini.orderapp.service.LineItemService;
+import com.capgemini.orderapp.service.OrderService;
+@Service
+public class OrderServiceImpl implements OrderService,LineItemService {
+
+	@Autowired
+	public OrderRepository orderRepository;
+	
+	@Override
+	public List<Order> getOrders() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Order getOrder(int OrderId) {
+	
+		return orderRepository.save(order);
+	}
+
+	@Override
+	public Order submitOrder(Order order) {
+		
+		return orderRepository.save(order);
+	}
+
+	@Override
+	public void updateOrder(Order order) {
+		orderRepository.save(order);
+		
+	}
+
+	@Override
+	public void deleteOrder(int OrderId) {
+	orderRepository.delete();	
+	}
+
+	@Override
+	public void cancelOrder(int OrderId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addLineItem(LineItem lineItem) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void removeLineItem(LineItem lineItem) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<LineItem> getLineItems() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}
